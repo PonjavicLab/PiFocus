@@ -9,7 +9,7 @@ In this repository, you will find a semi-protocol detailing the process for sett
 </p>
 
 ## Materials and Methods
- - Set the Raspberry Pi and Camera
+ - Raspberry Pi and Camera
  - Optomechanics and Optics
  - Codes
  - Supporting Information

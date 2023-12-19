@@ -16,7 +16,7 @@ In this repository, you will find a semi-protocol detailing the process for sett
 
 ## **Contributors**
 - [Amir Rahmani](https://github.com/AmirSTORMic)
-- [Tabitha Cox]
+- Tabitha Cox
 - [Dr Aleks Ponjavic](https://eps.leeds.ac.uk/physics/staff/8090/dr-aleks-ponjavic)
 
 ## Issues

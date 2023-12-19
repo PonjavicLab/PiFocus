@@ -15,9 +15,9 @@ In this repository, you will find a semi-protocol detailing the process for sett
  - Supporting Information
 
 ## **Contributors**
-[Amir Rahmani]([https://cellmig.org](https://github.com/AmirSTORMic)https://github.com/AmirSTORMic)
-[Tabitha Cox]
-[Dr Aleks Ponjavic](https://eps.leeds.ac.uk/physics/staff/8090/dr-aleks-ponjavic)
+- [Amir Rahmani](https://github.com/AmirSTORMic)
+- [Tabitha Cox]
+- [Dr Aleks Ponjavic](https://eps.leeds.ac.uk/physics/staff/8090/dr-aleks-ponjavic)
 
 ## Issues
 In the event that you come across any difficulties, please don't hesitate to file an issue and make sure to provide a thorough description of the problem.

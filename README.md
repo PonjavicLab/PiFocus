@@ -1,4 +1,6 @@
+[![DOI:10.1101/2024.01.15.575442](http://img.shields.io/badge/DOI-10.1101/2024.01.15.575442-B31B1B.svg)](<https://doi.org/10.1101/2024.01.15.575442>)
 [![Contributors](https://img.shields.io/github/contributors-anon/PonjavicLab/PiFocus)](https://github.com/PonjavicLab/PiFocus/graphs/contributors)
+[![CC BY 4.0][cc-by-shield]][cc-by]
 [![GitHub stars](https://img.shields.io/github/stars/PonjavicLab/PiFocus?style=social)](https://github.com/PonjavicLab/PiFocus/)
 [![GitHub forks](https://img.shields.io/github/forks/PonjavicLab/PiFocus?style=social)](https://github.com/PonjavicLab/PiFocus/)
 
@@ -24,3 +26,13 @@ In this repository, you will find a semi-protocol detailing the process for sett
 
 ## Issues
 In the event that you come across any difficulties, please don't hesitate to file an issue and make sure to provide a thorough description of the problem.
+
+## License
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg

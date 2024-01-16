@@ -3,7 +3,6 @@
 [![GitHub forks](https://img.shields.io/github/forks/PonjavicLab/PiFocus?style=social)](https://github.com/PonjavicLab/PiFocus/)
 
 # PiFocus: Acquisition, Analysis and Hardware Control
-[![DOI](https://zenodo.org/badge/239971181.svg)](https://www.biorxiv.org/content/10.1101/2024.01.15.575442v1)
 
 <p align="justify">
 In this repository, you will find a semi-protocol detailing the process for setting up the PiFocus system. The collection encompasses designs, hardware specifications, and software components that are all listed below. Additionally, there are scripts available for replicating calibration outcomes, along with the necessary Python code for conducting autofocus operations and a Beanshell script to perform autofocusing through MicroManager. For a comprehensive understanding of the entire project, please refer to the provided documentation link.

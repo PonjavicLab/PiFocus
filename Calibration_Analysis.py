@@ -28,6 +28,8 @@ for i in range(1,101):
     i_values.append(i)
     #Reading the frames
     stacks = dp+'Test'+str(i).zfill(4)+'.tif'
+    if not os.path.exists(stacks):
+        raise IOError(f"File {stacks} not found!")    
     img = cv2.imread(stacks,-1)
     im = np.asarray(img).astype(float)
    

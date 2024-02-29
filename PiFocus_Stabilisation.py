@@ -3,10 +3,18 @@ import asi
 import numpy as np
 import cv2
 import time
-import matplotlib.pyplot as plt
 import math
 import smaract.ctl as ctl
-from scipy.optimize import curve_fit
+
+try:
+    import matplotlib.pyplot as plt
+except ImportError:
+    plt = None
+
+try:
+    from scipy.optimize import curve_fit
+except ImportError:
+    print("Unable to import curve_fit from scipy.optimize.")
 
 # set up the z-stage 
 #ms and pm

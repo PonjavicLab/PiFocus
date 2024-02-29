@@ -3,8 +3,11 @@ import os
 import cv2
 import time
 import numpy as np
-import matplotlib.pyplot as plt
-from scipy.optimize import curve_fit
+
+try:
+    import matplotlib.pyplot as plt
+except ImportError:
+    plt = None
 
 # Define the model function. In our case, a 2D/1D Gaussian.
 def Gaussian(xdata, i0, x0, y0, sX, sY, amp):
@@ -14,8 +17,20 @@ def Gaussian(xdata, i0, x0, y0, sX, sY, amp):
     eq =  i0+amp*np.exp(-((x-x0)**2/2/sX**2 + (y-y0)**2/2/sY**2))
     return eq.ravel()
 
-# The directory that calibration data is saved.
-dp ="C:/Users/User/Documents/Data/"
+try:
+    from scipy.optimize import curve_fit
+except ImportError:
+    print("Unable to import curve_fit from scipy.optimize.")
+
+from tkinter import Tk
+from Tk.filedialog import askdirectory
+
+Tk().withdraw()  # Prevents a full GUI window from appearing
+folder_path = askdirectory()  # Show the folder selection dialog and return the selected folder path
+print(f"Selected folder: {folder_path}")
+
+import tifffile
+import argparse
 
 init_guess = [100,250,170,40,40,12000]
 x_c = []
@@ -27,7 +42,7 @@ i_values = []
 for i in range(1,101):
     i_values.append(i)
     #Reading the frames
-    stacks = dp+'Test'+str(i).zfill(4)+'.tif'
+    stacks = folder_path+'Test'+str(i).zfill(4)+'.tif'
     if not os.path.exists(stacks):
         raise IOError(f"File {stacks} not found!")    
     img = cv2.imread(stacks,-1)

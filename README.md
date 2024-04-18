@@ -16,10 +16,9 @@ In this repository, you will find a semi-protocol detailing the process for sett
  - Codes
  - Supporting Information
 
-Required libraries
-------------------
-.. code-block:: python
+## Required libraries
 
+```
    SciPy
    NumPy
    Matplotlib
@@ -27,7 +26,7 @@ Required libraries
    tkinter
    tifffile
    argparse
-
+```
 
 ## **Contributors**
 - [Amir Rahmani](https://github.com/AmirSTORMic)

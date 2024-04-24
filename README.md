@@ -126,8 +126,9 @@ Using the calibration analysis code, the calibration curve for the acquired z-st
 - Tabitha Cox
 - [Dr Aleks Ponjavic](https://eps.leeds.ac.uk/physics/staff/8090/dr-aleks-ponjavic)
 
-## **Preprint**
-[PiFocus preprint on bioRxiv Biophysics](https://www.biorxiv.org/content/10.1101/2024.01.15.575442v1)
+## **Cite our paper**
+[PiFocus paper on Optics Express](https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-8-13331&id=548369)
+Amir Rahmani, Tabitha Cox, Akhila Thamaravelil Abhimanue Achary, and Aleks Ponjavic, "Astigmatism-based active focus stabilisation with universal objective lens compatibility, extended operating range and nanometer precision," Opt. Express 32, 13331-13341 (2024)
 
 ## Issues
 In the event that you come across any difficulties, please don't hesitate to file an issue and make sure to provide a thorough description of the problem.

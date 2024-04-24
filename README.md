@@ -13,7 +13,7 @@ In this repository, you will find a semi-protocol detailing the process for sett
 ## Materials and Methods
    
 ### 1. Set up the Raspberry Pi 4
-- 1.1. 16-bit DAC
+1.1. 16-bit DAC
 To get the MAX5216 SPI DAC to work with the Raspberry Pi.
 
 ```
@@ -28,7 +28,7 @@ sudo pip3 install adafruit-circuitpython-mcp4725
 sudo i2cdetect -y 1
 ```
 
-- 1.2. Raspberry Pi camera (OV9281)
+1.2. Raspberry Pi camera (OV9281)
 Change the config file with: `sudo nano /boot/config.txt` and add the following lines to the end:
 
 ```
@@ -46,7 +46,7 @@ sudo raspi-config
 
 Then go to the interfacing options. Enable the camera and I2C.
 
-- 1.3. Install dependencies
+1.3. Install dependencies
 
 To install opencv-python:
 ```
@@ -89,7 +89,9 @@ sudo apt-get install libqtgui4
 sudo apt-get install libqt4-test
 ```
 
- - Optomechanics and Optics
+### 2. Optomechanics and Optics
+A multimode laser diode (OFL311, OdicForce Lasers)
+
  - Codes
  - Supporting Information
 

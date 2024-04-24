@@ -1,4 +1,4 @@
-[![DOI:10.1101/2024.01.15.575442](http://img.shields.io/badge/DOI-10.1101/2024.01.15.575442-B31B1B.svg)](<https://doi.org/10.1101/2024.01.15.575442>)
+[![DOI:10.1101/2024.01.15.575442](http://img.shields.io/badge/DOI-10.1364/OE.520845-B31B1B.svg)](<https://doi.org/10.1364/OE.520845>)
 [![Contributors](https://img.shields.io/github/contributors-anon/PonjavicLab/PiFocus)](https://github.com/PonjavicLab/PiFocus/graphs/contributors)
 [![CC BY 4.0][cc-by-shield]][cc-by]
 [![GitHub stars](https://img.shields.io/github/stars/PonjavicLab/PiFocus?style=social)](https://github.com/PonjavicLab/PiFocus/)
@@ -120,11 +120,6 @@ Using the calibration analysis code, the calibration curve for the acquired z-st
    tifffile
    argparse
 ```
-
-## **Contributors**
-- [Amir Rahmani](https://github.com/AmirSTORMic)
-- Tabitha Cox
-- [Dr Aleks Ponjavic](https://eps.leeds.ac.uk/physics/staff/8090/dr-aleks-ponjavic)
 
 ## **Cite our paper**
 [PiFocus paper on Optics Express](https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-8-13331&id=548369)

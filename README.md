@@ -128,6 +128,7 @@ Using the calibration analysis code, the calibration curve for the acquired z-st
 
 ## **Cite our paper**
 [PiFocus paper on Optics Express](https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-8-13331&id=548369)
+
 Amir Rahmani, Tabitha Cox, Akhila Thamaravelil Abhimanue Achary, and Aleks Ponjavic, "Astigmatism-based active focus stabilisation with universal objective lens compatibility, extended operating range and nanometer precision," Opt. Express 32, 13331-13341 (2024)
 
 ## Issues

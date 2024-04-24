@@ -11,7 +11,84 @@ In this repository, you will find a semi-protocol detailing the process for sett
 </p>
 
 ## Materials and Methods
- - Raspberry Pi and Camera
+   
+### 1. Set up the Raspberry Pi 4
+- 1.1. 16-bit DAC
+To get the MAX5216 SPI DAC to work with the Raspberry Pi.
+
+```
+sudo apt-get install i2c-tools
+pip3 install adafruit-blinka
+sudo pip3 install adafruit-circuitpython-mcp4725
+```
+> [!TIP]
+> If you want to detect the DAC to make sure it is connected. Run in the Raspberry Pi terminal:
+
+```
+sudo i2cdetect -y 1
+```
+
+- 1.2. Raspberry Pi camera (OV9281)
+Change the config file with: `sudo nano /boot/config.txt` and add the following lines to the end:
+
+```
+dtparam=i2c_arm=on
+dtparam=i2c1=on
+```
+
+exit with ctrl-x and save with y.
+
+Next need to enable the camera and I2C interface. Go to the Raspberry Pi terminal and type:
+
+```
+sudo raspi-config
+```
+
+Then go to the interfacing options. Enable the camera and I2C.
+
+- 1.3. Install dependencies
+
+To install opencv-python:
+```
+suod apt install python3-opencv
+```
+> [!TIP]
+> if you need to downgrade opencv:
+
+```
+pip3 install git+https://github.com/opencv/opencv-python
+```
+
+In the Raspberry Pi terminal, run the following commands:
+
+```
+sudo apt-get install libcblas-dev
+```
+
+```
+sudo apt-get install libhdf5-dev
+```
+
+```
+sudo apt-get install libhdf5-serial-dev
+```
+
+```
+sudo apt-get install libatlas-base-dev
+```
+
+```
+sudo apt-get install libjasper-dev
+```
+
+```
+sudo apt-get install libqtgui4
+```
+
+```
+sudo apt-get install libqt4-test
+```
+
  - Optomechanics and Optics
  - Codes
  - Supporting Information

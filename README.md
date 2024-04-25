@@ -107,8 +107,6 @@ Using the calibration analysis code, the calibration curve for the acquired z-st
 > [!NOTE]
 > The calibration curve does not change significantly over time other than if corrections are made using the correction collar. If corrections are made, the sensitivity and thus relative movements remain unchanged. However, for absolute positioning a new calibration would have to be carried out.
 
-### 4. Supporting Information
-
 ## Required libraries
 
 ```
@@ -125,6 +123,9 @@ Using the calibration analysis code, the calibration curve for the acquired z-st
 [PiFocus paper on Optics Express](https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-8-13331&id=548369)
 
 Amir Rahmani, Tabitha Cox, Akhila Thamaravelil Abhimanue Achary, and Aleks Ponjavic, "Astigmatism-based active focus stabilisation with universal objective lens compatibility, extended operating range and nanometer precision," Opt. Express 32, 13331-13341 (2024)
+
+[Zenodo repository for supporting datasets](https://zenodo.org/doi/10.5281/zenodo.10726262)
+Rahmani, A., Cox, T. and Ponjavic, A. "PiFocus: Acquisition, Analysis and Hardware Control," Zenodo, (2023)
 
 ## Issues
 In the event that you come across any difficulties, please don't hesitate to file an issue and make sure to provide a thorough description of the problem.

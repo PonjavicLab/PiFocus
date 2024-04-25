@@ -13,9 +13,9 @@ In this repository, you will find a semi-protocol detailing the process for sett
 ## Materials and Methods
    
 ### 1. Set up the Raspberry Pi 4
-1.1. 16-bit DAC
-To get the MAX5216 SPI DAC to work with the Raspberry Pi.
+1.1. A 16-bit DAC
 
+To get the MAX5216 SPI DAC to work with the Raspberry Pi.
 ```
 sudo apt-get install i2c-tools
 pip3 install adafruit-blinka
@@ -89,7 +89,7 @@ sudo apt-get install libqtgui4
 sudo apt-get install libqt4-test
 ```
 
-### 2. Optomechanics and Optics
+### 2. Optics
 - Multimode laser diode (OFL311, OdicForce Lasers)
 - Single-mode fibre (P1-780A-FC-1, Thorlabs)
 - Beamsplitter (CCM1-BS014/M, Thorlabs)
@@ -98,17 +98,18 @@ sudo apt-get install libqt4-test
 - Cylindrical lens (f = 150 - 1000 mm)
 - Tube lens
 - Camera (ZWO ASI290MM/OV9281)
+  
+![alt text](https://github.com/[PonjavicLab]/[PiFocus]/blob/[SI_Figures]/S4.png?raw=true)
 
 ### 3. Calibration
 <p align="justify">
 For calibration, a z-image stack should be acquired by scanning the stage in the axial direction and capturing an image for each step to form the calibration stack. The z-stack scan range and step size should be chosen in a way that ensures the entire range of astigmatism is covered, encompassing the full range of potential focal plane deviations. The stack can be acquired through micromanager.
-</p>
 
 Using the calibration analysis code, the calibration curve for the acquired z-stack can be obtained. This curve maps the relationship between the axial position of the sample and the corresponding beam shape, which is crucial for the focus stabilisation process.
+</p>
 
 > [!NOTE]
-> <p align="justify">
-   The calibration curve does not change significantly over time other than if corrections are made using the correction collar. If corrections are made, the sensitivity and thus relative movements remain unchanged. However, for absolute positioning a new calibration would have to be carried out.
+> <p align="justify"> The calibration curve does not change significantly over time other than if corrections are made using the correction collar. If corrections are made, the sensitivity and thus relative movements remain unchanged. However, for absolute positioning a new calibration would have to be carried out.
 </p>
 
 ## Required libraries

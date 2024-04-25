@@ -100,12 +100,16 @@ sudo apt-get install libqt4-test
 - Camera (ZWO ASI290MM/OV9281)
 
 ### 3. Calibration
+<p align="justify">
 For calibration, a z-image stack should be acquired by scanning the stage in the axial direction and capturing an image for each step to form the calibration stack. The z-stack scan range and step size should be chosen in a way that ensures the entire range of astigmatism is covered, encompassing the full range of potential focal plane deviations. The stack can be acquired through micromanager.
+</p>
 
 Using the calibration analysis code, the calibration curve for the acquired z-stack can be obtained. This curve maps the relationship between the axial position of the sample and the corresponding beam shape, which is crucial for the focus stabilisation process.
 
 > [!NOTE]
-> The calibration curve does not change significantly over time other than if corrections are made using the correction collar. If corrections are made, the sensitivity and thus relative movements remain unchanged. However, for absolute positioning a new calibration would have to be carried out.
+> <p align="justify">
+   The calibration curve does not change significantly over time other than if corrections are made using the correction collar. If corrections are made, the sensitivity and thus relative movements remain unchanged. However, for absolute positioning a new calibration would have to be carried out.
+</p>
 
 ## Required libraries
 

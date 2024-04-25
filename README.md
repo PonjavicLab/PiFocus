@@ -98,8 +98,8 @@ sudo apt-get install libqt4-test
 - Cylindrical lens (f = 150 - 1000 mm)
 - Tube lens
 - Camera (ZWO ASI290MM/OV9281)
-  
-![alt text](https://github.com/[PonjavicLab]/[PiFocus]/blob/[SI_Figures]/S4.png?raw=true)
+
+<img src="https://github.com/PonjavicLab/PiFocus/blob/main/SI_Figures/S4.png" width="360" height="300">
 
 ### 3. Calibration
 <p align="justify">

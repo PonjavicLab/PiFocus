@@ -46,12 +46,18 @@ Full guide [here](https://learn.adafruit.com/adafruit-ad5693r-16-bit-dac-breakou
 
 Put your soldered AD5693R onto a breadboard (or connect directly to PI) and connect as described in the guide. The terminal will be connected to your Piezo voltage offset.
 
+<img src="https://github.com/PonjavicLab/PiFocus/blob/main/SI_Figures/Picture1.png" width="360" height="220">
+
 ### Raspberry PI
 If using the recommended OV9281 camera that is compatible with Raspberry PI, upload the SD card image from the PiFocus github page and run the Raspberry PI imager. 
  
 This is setup with a PiFocus user with the password PiFocus. 
  
-To use the camera, go into terminal and type:
+To use the camera, go into terminal 
+
+<img src="https://github.com/PonjavicLab/PiFocus/blob/main/SI_Figures/Picture2.png" width="400" height="210">
+
+and type:
 
 ```
 libcamera-hello 
@@ -59,19 +65,17 @@ libcamera-hello
 This will stream an image while adjusting exposure time which will help you find the beam on the camera. 
  
 Everything that follows will be using python scripts on the desktop. 
-Right-click “OV_preview.py” and open using Thonny (or any Python compiler of choice).
+Right-click [“OV_preview.py”](https://github.com/PonjavicLab/PiFocus/blob/main/PiFocus_OVCam/OV_preview.py) and open using Thonny (or any Python compiler of choice).
 
 Run the script and you will see a similar preview as you did with libcamera, make sure the beam is close to the centre. 
  
-Next run the “OV_Volt_Calibration.py” script. The main variables to set here is the scan range and step size. Typically 200 nm and 10 micron is a good starting point. Note that you need to set the voltage to central (2.47V/2) before starting as described in the code comments. 
+Next run the [“OV_Volt_Calib.py”](https://github.com/PonjavicLab/PiFocus/blob/main/PiFocus_OVCam/OV_Volt_Calib.py) script. The main variables to set here is the scan range and step size. Typically 200 nm and 10 micron is a good starting point. Note that you need to set the voltage to central (2.47V/2) before starting as described in the code comments. This will create a folder of images at different z positions. 
  
-This will create a folder of images at different z positions. 
+The calibration scan can be analysed with [“Calibration_analysis.py”](https://github.com/PonjavicLab/PiFocus/blob/main/PiFocus_OVCam/Calibration_Analysis.py) that will output sigmax-sigmay as a function of z, make sure you input the correct z step here. It is important to make sure that your initial gaussian fit parameters are reasonable, if you are not getting any output play around with these. The code will show you an image along with the fit so it will be clear if parameters are wrong. A good starting point is to alignyour beam in focus and take note of background, size and amplitude then enter those values into the parameter guess. The gradient from the calibration script can then be used to convert the sigmax-sigmay control signal into nm.
  
-The calibration scan can be analysed with “Calibration_analysis.py” that will output sigmax-sigmay as a function of z, make sure you input the correct z step here. It is important to make sure that your initial gaussian fit parameters are reasonable, if you are not getting any output play around with these. The code will show you an image along with the fit so it will be clear if parameters are wrong. A good starting point is to alignyour beam in focus and take note of background, size and amplitude then enter those values into the parameter guess. The gradient from the calibration script can then be used to convert the sigmax-sigmay control signal into nm.
- 
-If you want to know the sensitivity of your setup, acquire a timelapse using “OV_timelapse”. This will output the control signal over time and the std of the control signal. If you divide this by the gradient from your calibration scan you get the resolution in nm. 
+If you want to know the sensitivity of your setup, acquire a timelapse using [“OV_timelapse.py”](https://github.com/PonjavicLab/PiFocus/blob/main/PiFocus_OVCam/OV_Timelapse.py). This will output the control signal over time and the std of the control signal. If you divide this by the gradient from your calibration scan you get the resolution in nm. 
 
-Now everything is setup to run the autofocus script “OV_Volt_Stabilise.py”. By default this is set to 300x300 pixels, that will run at about 150 Hz. Important things to set here are the Gaussian guess parameters and to make sure that the direction of autofocus is correct. It will be clear if this is wrong as the control signal error will rapidly increase over time, so reverse the direction if this is the case.  
+Now everything is setup to run the autofocus script [“OV_Volt_Stabilisation.py”](https://github.com/PonjavicLab/PiFocus/blob/main/PiFocus_OVCam/OV_Volt_Stabilisation.py). By default this is set to 300x300 pixels, that will run at about 150 Hz. Important things to set here are the Gaussian guess parameters and to make sure that the direction of autofocus is correct. It will be clear if this is wrong as the control signal error will rapidly increase over time, so reverse the direction if this is the case.  
 
 [comment]: <> (To get the MAX5216 SPI DAC to work with the Raspberry Pi.)
 [comment]: <> (```)

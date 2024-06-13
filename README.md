@@ -67,7 +67,7 @@ Next run the “OV_Volt_Calibration.py” script. The main variables to set here
  
 This will create a folder of images at different z positions. 
  
-The calibration scan can be analysed with “Calibration_analysis.py” that will output sigmax-sigmay as a function of z, make sure you input the correct z step here. It is important to make sure that your initial gaussian fit parameters are reasonable, if you are not getting any output play around with these. A good starting point is to estimate your beam in focus and take note of background, size and amplitude then enter those values into the parameter guess. The gradient can be used to convert the sigmax-sigmay control signal into nm. 
+The calibration scan can be analysed with “Calibration_analysis.py” that will output sigmax-sigmay as a function of z, make sure you input the correct z step here. It is important to make sure that your initial gaussian fit parameters are reasonable, if you are not getting any output play around with these. The code will show you an image along with the fit so it will be clear if parameters are wrong. A good starting point is to alignyour beam in focus and take note of background, size and amplitude then enter those values into the parameter guess. The gradient from the calibration script can then be used to convert the sigmax-sigmay control signal into nm.
  
 If you want to know the sensitivity of your setup, acquire a timelapse using “OV_timelapse”. This will output the control signal over time and the std of the control signal. If you divide this by the gradient from your calibration scan you get the resolution in nm. 
 

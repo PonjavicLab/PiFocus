@@ -27,6 +27,19 @@ In short, setup multimode laser, pass through single-mode fiber, then collimate 
 <img src="https://github.com/PonjavicLab/PiFocus/blob/main/SI_Figures/S4.png" width="360" height="300">
 
 ## Software
+The simplest and fastest way to get started with PiFocus on a Raspberry Pi is by imaging the Raspberry Pi SD card using our preloaded image.
+This avoids having to install all the custom python packages and system configuration required to run PiFocus code.
+
+Instructions for both Windows and Mac can be found in the links below.
+
+Check [here](https://medium.com/@reishim0731/transferring-the-raspberry-pi-os-to-a-micro-sd-card-on-the-mac-terminal-b572266bf79b) for MacOS.
+
+Check [here](https://raspberry-projects.com/pi/pi-operating-systems/win32diskimager) for Windows.
+
+> [!NOTE]
+> Currently, a PiFocus_OVCam image is available which works with the OV9281 camera and the AD5693R 16-bit DAC for piezo offset control.
+
+
 ### 16-bit DAC output for piezo control
 
 Full guide [here](https://learn.adafruit.com/adafruit-ad5693r-16-bit-dac-breakout-board/circuitpython-and-python).

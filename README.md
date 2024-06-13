@@ -27,7 +27,7 @@ In short, setup multimode laser, pass through single-mode fiber, then collimate 
 <img src="https://github.com/PonjavicLab/PiFocus/blob/main/SI_Figures/S4.png" width="360" height="300">
 
 ## Software
-The simplest and fastest way to get started with PiFocus on a Raspberry Pi is by imaging the Raspberry Pi SD card using our preloaded image.
+The simplest and fastest way to get started with PiFocus on a Raspberry Pi is by imaging the Raspberry Pi SD card using our preloaded image ([download the image file](https://leeds365-my.sharepoint.com/:u:/g/personal/phyapona_leeds_ac_uk/EQdljYulgwNKiqJuBZGs2eQBUzKCu8BG7nbkED_NsvtADg?e=3SPmX8)).
 This avoids having to install all the custom python packages and system configuration required to run PiFocus code.
 
 Instructions for both Windows and Mac can be found in the links below.
@@ -90,13 +90,16 @@ sudo i2cdetect -y 1
 ## Cite our paper
 [PiFocus paper on Optics Express](https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-8-13331&id=548369)
 
-Amir Rahmani, Tabitha Cox, Akhila Thamaravelil Abhimanue Achary, and Aleks Ponjavic, "Astigmatism-based active focus stabilisation with universal objective lens compatibility, extended operating range and nanometer precision," Opt. Express 32, 13331-13341 (2024)
+Rahmani, A., Cox, T., Achary, A. T. A., and Ponjavic, A., "Astigmatism-based active focus stabilisation with universal objective lens compatibility, extended operating range and nanometer precision," Opt. Express 32, 13331-13341 (2024)
 
 [Zenodo repository for supporting datasets](https://zenodo.org/doi/10.5281/zenodo.10726262)
 Rahmani, A., Cox, T. and Ponjavic, A. "PiFocus: Acquisition, Analysis and Hardware Control," Zenodo, (2023)
 
 ## Issues
 In the event that you come across any difficulties, please don't hesitate to file an issue and make sure to provide a thorough description of the problem.
+Or email us at:
+a.ponjavic@leeds.ac.uk
+
 
 ## License
 This work is licensed under a

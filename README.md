@@ -55,7 +55,7 @@ This is setup with a PiFocus user with the password PiFocus.
  
 To use the camera, go into terminal 
 
-<img src="https://github.com/PonjavicLab/PiFocus/blob/main/SI_Figures/Picture2.png" width="380" height="200">
+<img src="https://github.com/PonjavicLab/PiFocus/blob/main/SI_Figures/Pic2.png" width="380" height="200">
 
 and type:
 
@@ -66,6 +66,8 @@ This will stream an image while adjusting exposure time which will help you find
  
 Everything that follows will be using python scripts on the desktop. 
 Right-click [“OV_preview.py”](https://github.com/PonjavicLab/PiFocus/blob/main/PiFocus_OVCam/OV_preview.py) and open using Thonny (or any Python compiler of choice).
+
+<img src="https://github.com/PonjavicLab/PiFocus/blob/main/SI_Figures/Picture3.png" width="380" height="200">
 
 Run the script and you will see a similar preview as you did with libcamera, make sure the beam is close to the centre. 
  

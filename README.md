@@ -55,7 +55,6 @@ This is setup with a PiFocus user with the password PiFocus.
  
 To use the camera, go into terminal 
 
-<img src="https://github.com/PonjavicLab/PiFocus/blob/main/SI_Figures/Picture2.png" width="400" height="210">
 
 and type:
 

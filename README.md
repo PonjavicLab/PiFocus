@@ -99,12 +99,17 @@ sudo i2cdetect -y 1
 Rahmani, A., Cox, T., Achary, A. T. A., and Ponjavic, A., "Astigmatism-based active focus stabilisation with universal objective lens compatibility, extended operating range and nanometer precision," Opt. Express 32, 13331-13341 (2024)
 
 [Zenodo repository for supporting datasets](https://zenodo.org/doi/10.5281/zenodo.10726262)
+
 Rahmani, A., Cox, T. and Ponjavic, A. "PiFocus: Acquisition, Analysis and Hardware Control," Zenodo, (2023)
 
 ## Issues
 In the event that you come across any difficulties, please don't hesitate to file an issue and make sure to provide a thorough description of the problem.
+
 Or email us at:
-a.ponjavic@leeds.ac.uk
+
+📧 pyara@leeds.ac.uk (Amir Rahmani)
+
+📧 a.ponjavic@leeds.ac.uk (Dr. Aleks Ponjavic)
 
 
 ## License

@@ -51,7 +51,7 @@ Put your soldered AD5693R onto a breadboard (or connect directly to PI) and conn
 ### Raspberry PI
 If using the recommended OV9281 camera that is compatible with Raspberry PI, upload the SD card image from the PiFocus github page and run the Raspberry PI imager. 
  
-This is setup with a PiFocus user with the password PiFocus. 
+This is setup with a PiFocus user with the password pifocus. 
  
 To use the camera, go into terminal 
 

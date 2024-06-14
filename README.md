@@ -27,7 +27,7 @@ In short, setup multimode laser, pass through single-mode fiber, then collimate 
 <img src="https://github.com/PonjavicLab/PiFocus/blob/main/SI_Figures/S4.png" width="360" height="300">
 
 ## Software
-The simplest and fastest way to get started with PiFocus on a Raspberry Pi is by imaging the Raspberry Pi SD card using our preloaded image ([download the image file](https://leeds365-my.sharepoint.com/:u:/g/personal/phyapona_leeds_ac_uk/EQdljYulgwNKiqJuBZGs2eQBUzKCu8BG7nbkED_NsvtADg?e=3SPmX8)).
+The simplest and fastest way to get started with PiFocus on a Raspberry Pi is by imaging the Raspberry Pi SD card using our preloaded image ([download the image file](https://leeds365-my.sharepoint.com/:u:/g/personal/phyapona_leeds_ac_uk/EXfXRBo5S5NMkREcIQCHJQ4B3cDREjjXeYYMZ3RC_1PfZw?e=JTbmnT)).
 This avoids having to install all the custom python packages and system configuration required to run PiFocus code.
 
 Instructions for both Windows and Mac can be found in the links below.

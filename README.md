@@ -48,6 +48,8 @@ Put your soldered AD5693R onto a breadboard (or connect directly to PI) and conn
 
 <img src="https://github.com/PonjavicLab/PiFocus/blob/main/SI_Figures/Picture1.png" width="360" height="220">
 
+[(image credit)](https://www.mouser.com/datasheet/2/737/adafruit_ad5693r_16_bit_dac_breakout_board-3402554.pdf)
+
 ### Raspberry PI
 If using the recommended OV9281 camera that is compatible with Raspberry PI, upload the SD card image from the PiFocus github page and run the Raspberry PI imager. 
  

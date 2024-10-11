@@ -100,6 +100,24 @@ sudo i2cdetect -y 1
 
 Rahmani, A., Cox, T., Achary, A. T. A., and Ponjavic, A., "Astigmatism-based active focus stabilisation with universal objective lens compatibility, extended operating range and nanometer precision," Opt. Express 32, 13331-13341 (2024)
 
+```
+@article{rahmani_astigmatism-based_2024,
+	title = {Astigmatism-based active focus stabilisation with universal objective lens compatibility, extended operating range and nanometer precision},
+	volume = {32},
+	issn = {1094-4087},
+	url = {https://opg.optica.org/abstract.cfm?URI=oe-32-8-13331},
+	doi = {10.1364/OE.520845},
+	language = {en},
+	number = {8},
+	urldate = {2024-03-27},
+	journal = {Optics Express},
+	author = {Rahmani, Amir and Cox, Tabitha and Achary, Akhila Thamaravelil Abhumanue and Ponjavic, Aleks},
+	month = apr,
+	year = {2024},
+	pages = {13331},
+}
+```
+
 [Zenodo repository for supporting datasets](https://zenodo.org/doi/10.5281/zenodo.10726262)
 
 Rahmani, A., Cox, T. and Ponjavic, A. "PiFocus: Acquisition, Analysis and Hardware Control," Zenodo, (2023)

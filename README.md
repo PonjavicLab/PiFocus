@@ -1,6 +1,5 @@
 [![DOI:10.1101/2024.01.15.575442](http://img.shields.io/badge/DOI-10.1364/OE.520845-B31B1B.svg)](<https://doi.org/10.1364/OE.520845>)
 [![Contributors](https://img.shields.io/github/contributors-anon/PonjavicLab/PiFocus)](https://github.com/PonjavicLab/PiFocus/graphs/contributors)
-[![CC BY 4.0][cc-by-shield]][cc-by]
 [![GitHub stars](https://img.shields.io/github/stars/PonjavicLab/PiFocus?style=social)](https://github.com/PonjavicLab/PiFocus/)
 [![GitHub forks](https://img.shields.io/github/forks/PonjavicLab/PiFocus?style=social)](https://github.com/PonjavicLab/PiFocus/)
 

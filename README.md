@@ -94,6 +94,9 @@ Now everything is setup to run the autofocus script [“OV_Volt_Stabilisation.py
 sudo i2cdetect -y 1
 ```
 
+## Versions of our work have been used in:
+Fiolka Lab [Link](https://x.com/RetoPaul/status/1837251572054806992) 
+
 ## Cite our paper
 [PiFocus paper on Optics Express](https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-8-13331&id=548369)
 
